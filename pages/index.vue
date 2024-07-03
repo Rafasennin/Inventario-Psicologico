@@ -4,8 +4,8 @@
       <v-row class="d-flex justify-center my-16 body-row" v-if="!isLoggedStatus">
         <v-col cols="12" class="text-center">
           <div ref="banner">
-            <h1 class="display-1 font-weight-bold text-red mb-4">Lista de Tarefas</h1>
-            <p class="text-h5 text-red-lighten-2 mb-2">Bem-vindo à aplicação de gerenciamento de tarefas!</p>
+            <h1 class="display-1 font-weight-bold text-red mb-4">Invetário Psicológico</h1>
+            <p class="text-h5 text-red-lighten-2 mb-2">Bem-vindo ao inventário psicológico do Gnosis Brasil!</p>
             <p class="text-h5 text-red-lighten-2">
               Para começar, faça login se já estiver cadastrado ou cadastre-se para acessar sua lista de tarefas.
             </p>
