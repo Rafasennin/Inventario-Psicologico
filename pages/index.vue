@@ -5,6 +5,13 @@
         <v-col cols="12" class="text-center">
           <div ref="banner">
             <h1 class="display-1 font-weight-bold text-red mb-4">Invetário Psicológico</h1>
+            <v-parallax height="400" src="../assets/matrix_1.jpg">
+            <div class="d-flex justify-center">
+                <v-avatar class="ma-10 opacity-80" size="300">
+                    <img src="../assets/gnosis_logo.jpg" width="300">
+                </v-avatar>
+            </div>
+        </v-parallax>
             <p class="text-h5 text-red-lighten-2 mb-2">Bem-vindo ao inventário psicológico do Gnosis Brasil!</p>
             <p class="text-h5 text-red-lighten-2">
               Para começar, faça login se já estiver cadastrado ou cadastre-se para acessar sua lista de tarefas.
