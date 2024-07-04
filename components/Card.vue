@@ -1,3 +1,4 @@
+
 <template>
   <v-container class="bg-black mt-2">
     <form @submit.prevent="addReport">
@@ -15,7 +16,7 @@
           <v-row>
             <v-progress-linear v-if="isAdding" indeterminate color="primary"></v-progress-linear>
           </v-row>
-        </v-col>
+        </v-col> 
       </v-row>
     </form>
 
@@ -102,6 +103,7 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import axios from 'axios';
 import store from '~/store/index';
+
 
 const router = useRouter();
 const userId = computed(() => store.state.userId);

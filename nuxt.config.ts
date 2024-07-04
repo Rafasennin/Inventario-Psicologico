@@ -1,6 +1,6 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
-  modules: ['@nuxt/image', "@pinia/nuxt"],
+  modules: ['@nuxt/image', "@pinia/nuxt", "@nuxt/icon"],
   //...
   build: {
     transpile: ['vuetify'],
@@ -13,6 +13,7 @@ export default defineNuxtConfig({
       })
     },
   ],
+
   vite: {
     vue: {
       template: {
