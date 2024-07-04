@@ -33,12 +33,10 @@
         <h2 class="article__title mt-10">Sobre este projeto,</h2><br>
 
         <p class="article__p">
-            Neste projeto "Lista de Tarefas" foi desenvolvido utilizando Vue 3 e Nuxt.js, utilizei Vuex para
-            gerenciamento de estado e Vuetify para componentes de interface. Implementei uma estrutura segura com
-            sessões dedicadas para cada usuário, utilizando criptografia para armazenamento seguro dos dados no MongoDB.
-            A autenticação é realizada através de tokens JWT (JSON Web Tokens), garantindo a segurança e integridade das
-            operações na aplicação. Este projeto tem o objetivo de aplicar conhecimentos técnicos
-            avançados na criação de soluções funcionais e seguras.
+            Este aplicativo, "Inventário Psicológico", foi desenvolvido como uma ferramenta para auxiliar no registro
+            diário dos defeitos psicológicos e virtudes, promovendo o autoconhecimento. Através dele, é possível
+            identificar os pontos que impedem o despertar da consciência e a liberação da essência, facilitando o
+            desenvolvimento pessoal.
         </p>
         <v-divider :thickness="1" class="border-opacity-50 mb-5 mt-5" color="white"></v-divider>
     </v-container>
