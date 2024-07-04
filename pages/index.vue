@@ -15,8 +15,8 @@
           <p class="text-h5 text-red-lighten-1 my-4">Bem-vindo ao inventário psicológico, uma ferramenta poderosa que
             fornece insights valiosos sobre a mente humana e auxilia no desenvolvimento pessoal através do
             autoconhecimento, rumo ao despertar da consciência.</p>
-          <v-alert type="info" class="mt-16" color="deep-purple-darken-4" icon="$success" >
-            <p class="text-h5 text-red-lighten-3">
+          <v-alert type="info" class="mt-16" color="blue-darken-2" icon="$info" >
+            <p class="text-h5">
               Para começar, faça login se já estiver cadastrado ou cadastre-se para acessar sua lista de tarefas.
             </p>
           </v-alert>
