@@ -2,9 +2,9 @@
   <v-container class="bg-black mt-2">
     <form @submit.prevent="addReport">
       <v-text-field v-model="reportVirtue" label="Virtude"></v-text-field>
-      <v-text-field v-model="reportMVirtue" label="Descrição da Virtude"></v-text-field>
+      <v-textarea v-model="reportMVirtue" label="Descrição da Virtude"></v-textarea>
       <v-text-field v-model="reportDefect" label="Defeito"></v-text-field>
-      <v-text-field v-model="reportMDefect" label="Descrição do Defeito"></v-text-field>
+      <v-textarea v-model="reportMDefect" label="Descrição do Defeito"></v-textarea>
       <v-text-field v-model="reportDate" label="Data de criação" readonly></v-text-field>
       
       <v-row>
@@ -22,18 +22,20 @@
     <v-table theme="dark" class="overflow-x-auto">
       <thead>
         <tr>
+          <th class="text-h5 text-center">♰</th>
           <th class="text-h5 text-center">Virtude</th>
-          <th class="text-h5 text-center">Descrição da Virtude</th>
+          <th class="text-h5 text-center">Descrição</th>
           <th class="text-h5 text-center">Defeito Psicológico</th>
-          <th class="text-h5 text-center">Descrição do Defeito</th>
+          <th class="text-h5 text-center">Descrição</th>
           <th class="text-h5 text-center">Data</th>
           <th class="text-h5 text-center">Deletar</th>
           <th class="text-h5 text-center">Editar</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="text-center" v-for="report in reports" :key="report._id">
-          <td>{{ report.virtue }}</td>
+        <tr class="text-center" v-for="(report, index) in reports" :key="report._id">
+          <td>{{ index + 1 }}</td>
+          <td>{{ report.virtue}}</td>
           <td class="word-wrap-break">{{ report.vmessage }}</td>
           <td>{{ report.defect }}</td>
           <td>{{ report.dmessage }}</td>
@@ -131,6 +133,7 @@ const editReportMDefect = ref('');
 const deleteModal = ref(false);
 const deleteId = ref(null);
 const deleteType = ref('');
+
 
 const getReports = async () => {
   try {
