@@ -20,8 +20,7 @@ export default {
     icons: [
       { icoo: 'mdi-github', src: 'https://github.com/Rafasennin' },
       { icoo: 'mdi-linkedin', src: 'https://www.linkedin.com/in/rafael-d-santos-24a1098b' },
-      { icoo: 'mdi-instagram', src: 'https://www.instagram.com/rafasennin7/' },
-      { icoo: 'mdi-youtube', src: 'https://youtube.com/channel/UC7cYXH0h-RylVwe6y9JIUIQ' },
+      { icoo: 'mdi-instagram', src: 'https://www.instagram.com/rafael.santosdev' },
     ],
 
 
